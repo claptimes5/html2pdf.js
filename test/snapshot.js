@@ -55,7 +55,7 @@ describe('snapshot', () => {
 
   const filesToTest = {
     'blank': [ 'default' ],
-    'lorem-ipsum': [ 'default', 'legacy', 'margin' ],
+    'lorem-ipsum': [ 'default', 'legacy', 'margin', 'pagebreakAvoidAll' ],
     'all-tags': [ 'default' ],
     'css-selectors': [ 'selectMainId' ],
     'pagebreaks': [ 'pagebreakLegacy', 'pagebreakCss', 'pagebreakAvoidAll', 'pagebreakSpecify' ],
